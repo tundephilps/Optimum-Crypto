@@ -1,0 +1,69 @@
+$primary-color:#0f171e;
+$secondary-color:#1a242f;
+$font-primary: #ffffff;
+$font-secondary: #79b8f3;
+
+
+
+
+
+.header{
+    background-color: $secondary-color;
+    height: 70px;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    cursor: pointer;
+    color: ghostwhite;
+    
+}
+
+.logo{
+    display: flex;
+    color: gold;
+
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+.Nav{   
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+ 
+}
+
+
+@media (max-width:450px){
+
+    .header{
+        background-color: $secondary-color;
+        height: 50px;
+        padding: 0px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        cursor: pointer;
+        color: ghostwhite;
+        
+    }
+    
+    .logo{
+        display: flex;
+        color: gold;
+    
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .Nav{   
+        display: flex;
+        text-decoration: none;
+        display: none;
+    }
+    
+
+}
