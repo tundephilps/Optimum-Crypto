@@ -4,3 +4,7 @@ It displays trending coins from the last 24hrs called from the coin Gecko API us
 On the cointable each single coin has its own unique page detail as well as its Historical Chart. backend functionality coming soon .. 
 Visit Full site 
 https://optimum-crypto.vercel.app
+
+
+Technologies used;
+React Router, Context API, Material UI, React Bootstrap, Axios, React Chart.js
